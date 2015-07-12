@@ -11,15 +11,22 @@ import Foundation
 
 class Hero: CCNode {
     
-    var state: Bool = false {
+    
+    var action: HeroAction = .Run
+    
+    //tracks the activity state of this hero
+    //true if active (present in gameplayscene)
+    //false if inactive (not present in gameplayscene)
+    var activeState: Bool = false {
         didSet {
-            self.visible = state
+            self.visible = activeState
         }
     }
 
     func didLoadFromCCB() {
         //set starting position 
         self.position = CGPointMake(CCDirector.sharedDirector().viewSize().width/5, 59)
+        
     }
     
 

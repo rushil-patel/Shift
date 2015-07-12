@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>18</integer>
+	<integer>20</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -103,8 +103,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1.1115639209747314</real>
-									<real>1.249000072479248</real>
+									<real>1.2842881679534912</real>
+									<real>1.2612137794494629</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -153,8 +153,6 @@
 								<array/>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -165,7 +163,7 @@
 						<array>
 							<dict>
 								<key>UUID</key>
-								<integer>6</integer>
+								<integer>7</integer>
 								<key>baseClass</key>
 								<string>CCSprite</string>
 								<key>children</key>
@@ -261,9 +259,9 @@
 										<key>value</key>
 										<array>
 											<real>0.0</real>
-											<real>0.0</real>
+											<real>10</real>
 											<integer>0</integer>
-											<integer>2</integer>
+											<integer>0</integer>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -275,7 +273,7 @@
 										<key>value</key>
 										<array>
 											<real>0.0</real>
-											<real>0.0</real>
+											<real>0.5</real>
 										</array>
 									</dict>
 									<dict>
@@ -285,8 +283,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>2.2884597778320312</real>
-											<real>1.2167115211486816</real>
+											<real>2.3229646682739258</real>
+											<real>1</real>
 											<false/>
 											<integer>0</integer>
 										</array>
@@ -338,7 +336,7 @@
 							</dict>
 							<dict>
 								<key>UUID</key>
-								<integer>7</integer>
+								<integer>19</integer>
 								<key>baseClass</key>
 								<string>CCSprite</string>
 								<key>children</key>
@@ -433,8 +431,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>649.922607421875</real>
-											<real>0.0</real>
+											<real>659.72198486328125</real>
+											<real>10</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -448,7 +446,7 @@
 										<key>value</key>
 										<array>
 											<real>0.0</real>
-											<real>0.0</real>
+											<real>0.5</real>
 										</array>
 									</dict>
 									<dict>
@@ -458,8 +456,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
+											<real>2.3229999542236328</real>
 											<real>1</real>
-											<real>1.2170000076293945</real>
 											<false/>
 											<integer>0</integer>
 										</array>
@@ -587,7 +585,7 @@
 								<key>value</key>
 								<array>
 									<real>0.0</real>
-									<real>-100</real>
+									<real>-1000</real>
 								</array>
 							</dict>
 							<dict>
@@ -640,10 +638,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
-							<integer>2</integer>
-							<integer>2</integer>
+							<real>0.0</real>
+							<real>0.0</real>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -712,9 +710,9 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>1236</real>
 					<real>1</real>
-					<integer>0</integer>
+					<real>1</real>
+					<integer>2</integer>
 					<integer>2</integer>
 				</array>
 			</dict>
